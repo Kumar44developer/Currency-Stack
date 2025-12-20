@@ -32,6 +32,8 @@ img{
 }
 .container img:nth-child(2){
     opacity: 0.8;
+    z-index: 3;
+}
 
 
 
