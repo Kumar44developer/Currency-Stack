@@ -22,3 +22,5 @@ body{
 img{
     width: 320px;
     height: 640px;
+    position: absolute;
+}
