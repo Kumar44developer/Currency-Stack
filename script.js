@@ -1,1 +1,2 @@
+document.addEventListener("mousemove",effect);
 
