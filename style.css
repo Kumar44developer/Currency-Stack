@@ -16,3 +16,6 @@ body{
     position: relative;
     width: 320px;
     height: 640px;
+    transform: rotate(-30deg) skew(25deg) scale(0.8);
+    margin-top: 12rem;
+}
