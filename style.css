@@ -41,6 +41,8 @@ img{
 
 .container img:nth-child(4){
     opacity: 0.4;
+     z-index: 1;
+}
 
 
 
