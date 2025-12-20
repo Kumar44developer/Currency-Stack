@@ -39,6 +39,8 @@ img{
      z-index: 2;
 }
 
+.container img:nth-child(4){
+    opacity: 0.4;
 
 
 
