@@ -19,3 +19,6 @@ body{
     transform: rotate(-30deg) skew(25deg) scale(0.8);
     margin-top: 12rem;
 }
+img{
+    width: 320px;
+    height: 640px;
