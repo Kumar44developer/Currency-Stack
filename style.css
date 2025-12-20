@@ -24,3 +24,12 @@ img{
     height: 640px;
     position: absolute;
 }
+
+.container img:nth-child(1){
+    opacity: 1;
+
+
+
+
+
+
