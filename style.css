@@ -34,7 +34,8 @@ img{
     opacity: 0.8;
     z-index: 3;
 }
-
+.container img:nth-child(3){
+    opacity: 0.6;
 
 
 
