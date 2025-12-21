@@ -8,6 +8,8 @@ function effect(e){
     let y = (window.innerWidth - e.pageX * movement) /250;
 
     layer.style.transform = `translate(${-x}px) translateY(${y}px)`;
+          });
+}
 
 
 
