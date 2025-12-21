@@ -5,5 +5,7 @@ function effect(e){
     layers.forEach((layer)=>{
     const movement = layer.getAttribute("data-speed");
     let x = (window.innerWidth - e.pageX * movement) /250;
+    let y = (window.innerWidth - e.pageX * movement) /250;
+
 
 
