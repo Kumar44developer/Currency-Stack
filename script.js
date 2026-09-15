@@ -1,16 +1,13 @@
-document.addEventListener("mousemove",effect);
-const layers = document.querySelectorAll(".layer")
+const layers = document.querySelectorAll(".layer");
 
-function effect(e){
-    layers.forEach((layer)=>{
-    const movement = layer.getAttribute("data-speed");
-    let x = (window.innerWidth - e.pageX * movement) /250;
-    let y = (window.innerWidth - e.pageX * movement) /250;
+document.addEventListener("mousemove", effect);
 
-    layer.style.transform = `translate(${-x}px) translateY(${y}px)`;
-          });
+function effect(e) {
+    layers.forEach((layer) => {
+        const movement = parseFloat(layer.getAttribute("data-speed")) || 10;
+        const x = (window.innerWidth - e.pageX * movement) / 200;
+        const y = (window.innerHeight - e.pageY * movement) / 200;
+
+        layer.style.transform = `translateX(${-x}px) translateY(${y}px)`;
+    });
 }
-
-
-
-
