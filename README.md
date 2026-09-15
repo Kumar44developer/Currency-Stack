@@ -29,10 +29,10 @@ An interactive 3D parallax visualizer built using vanilla HTML, CSS, and JavaScr
 
 ```
 Currency-Stack/
-├── index.html       # Markup structure hosting the isometric layers and data attributes
-├── style.css        # Isometric skewing, radial background gradient, layer opacities, and shadows
-├── script.js        # Mouse tracking and multi-depth parallax transformation logic
-└── README.md        # Project documentation
+├── index.html     
+├── style.css        
+├── script.js        
+└── README.md       
 ```
 
 ---
